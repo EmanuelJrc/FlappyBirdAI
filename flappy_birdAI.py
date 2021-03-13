@@ -154,7 +154,7 @@ class Base:
         win.blit(self.IMG, (self.x2, self.y))
 
 def draw_window(win, birds, pipes, base, score, gen):
-    win.blit(BG_IMG, (0, 0))
+    win.blit(BG_IMG, (0, -100))
     for pipe in pipes:
         pipe.draw(win)
 
